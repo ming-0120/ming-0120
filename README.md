@@ -34,7 +34,7 @@
 → 모델 vs 평가 기준 분리 분석  
 → threshold 조정으로 Recall 개선  
 
-👉 [[케어브릿지-GitHub 링크](https://github.com/ming-0120/carebridge)]
+👉 [[안부똑똑-GitHub 링크](https://github.com/ming-0120/anbu-knocknock)]
 
 ---
 
