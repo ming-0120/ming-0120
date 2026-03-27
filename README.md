@@ -12,6 +12,45 @@
 
 ---
 
+## 🛠 Projects ⭐
+
+### 🏠 고독사 방지 시스템 (대표 프로젝트)
+- 개인 패턴 기반 이상 탐지 시스템
+- FastAPI + React + MySQL + ML
+
+#### 🔹 주요 기능
+- 센서 데이터 → Feature 변환 → 위험도 점수 계산
+- 개인별 Isolation Forest 모델 적용
+- 실시간 위험 감지 및 알림
+
+#### 🔹 기술 포인트
+- 개인화 모델 (Per-user model)
+- 비선형 Risk Score 변환
+- Redis 기반 실시간 처리
+
+#### 🔹 문제 해결
+- 동일 모델에서 F1 변동 문제 발생
+→ threshold 분석으로 원인 규명 (cutoff 정책 문제)
+→ 기준 조정으로 Recall 개선
+
+👉 [GitHub 링크]
+
+---
+
+### 📌 Other Projects
+
+#### 1️⃣ 프로젝트명
+- 한 줄 설명
+- 사용 기술: FastAPI, MySQL 등
+👉 [GitHub 링크]
+
+#### 2️⃣ 프로젝트명
+- 한 줄 설명
+- 사용 기술: React, API 등
+👉 [GitHub 링크]
+
+---
+
 ## 🧰 Tech Stack
 
 ### Backend
@@ -125,10 +164,6 @@
 
 - GitHub: https://github.com/ming-0120  
 - Portfolio: https://www.notion.so/AI-71e8296227df8375b8af01620d9ea216  
-
----
-
-## 📌 한 줄 정리
 
 > **“AI를 이해하는 백엔드 개발자가 아니라,  
 AI를 서비스에 안정적으로 녹여내는 개발자입니다.”**
