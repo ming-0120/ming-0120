@@ -1,66 +1,190 @@
-# 🚀 Back-end Developer with AI | 강민경 (Min-kyung Kang)
+# 👩‍💻 강민경 | Backend & AI Engineer
 
-> [cite_start]**"백엔드 실무에 AI를 더해 비즈니스 가치를 설계합니다."** 
-
-[cite_start]저는 3년 3개월간의 SI 실무 경험을 통해 안정적인 시스템 아키텍처와 운영 역량을 쌓아온 개발자입니다. [cite: 9, 26, 68] [cite_start]현재는 LLM, RAG 등 최신 AI 기술을 기존 시스템과 유기적으로 연계하여 실질적인 서비스 가치를 만드는 데 집중하고 있습니다. [cite: 72, 105]
+> 백엔드 실무 경험 위에 AI를 더해 **서비스 레벨에서 가치를 만드는 개발자**
 
 ---
 
-### 🛠 Tech Stacks
-
-**Back-end & Languages**
-* [cite_start]**Languages:** C# (.NET), Java, Python, Javascript [cite: 12, 13, 20, 21]
-* [cite_start]**Frameworks:** ASP.NET MVC, JSP, FastAPI (FastAPI는 AI 플랫폼 구축 역량 기반) [cite: 18, 19, 51]
-* [cite_start]**Database:** MSSQL, Oracle DB, MySQL, PostgreSQL (SQL Server 포함) [cite: 15, 17, 21, 62]
-
-**AI & Data Science**
-* [cite_start]**Frameworks:** LangChain, RAG (Retrieval-Augmented Generation) [cite: 52, 53]
-* [cite_start]**Libraries:** Pandas, NumPy, OpenCV, Scikit-learn (데이터 분석 준전문가 역량) [cite: 11, 23, 54]
-* [cite_start]**Deep Learning:** CNN, GAN, Object Detection [cite: 55, 57]
-
-**Infrastructure & Tools**
-* [cite_start]**Cloud/DevOps:** AWS, Git, RabbitMQ (비동기 처리) [cite: 21, 22, 70]
-* [cite_start]**Others:** REST API, Socket 통신, Batch System 운영 [cite: 16, 70, 77]
+## 🚀 About Me
+- 3년 이상의 SI 기반 웹 개발 및 운영 경험
+- 안정적인 서비스 운영 + 확장 가능한 백엔드 설계 경험
+- AI(RAG, LLM, 데이터 분석)를 실제 서비스에 적용하는 데 관심
+- **“모델 성능 + 시스템 안정성”을 함께 고민하는 개발자**
 
 ---
 
-### 👨‍💻 Work Experience
+## 🛠 Projects ⭐
 
-**리얼웹 (Realweb) | [cite_start]SI개발팀 주임** [cite: 28]
-[cite_start]*2022.06 - 2025.08 (3년 3개월)* [cite: 27]
-* [cite_start]**한국수력원자력:** 통합전자결재 웹 개발 및 구축 (Socket 통신 및 API 개발 전담) [cite: 39, 40, 77]
-* **한국선급:** 통합전자결재 시스템 유지보수 및 운영 [cite: 35, 36]
-* [cite_start]**Key Achievement:** 간헐적 메시지 처리 지연 문제를 로그 데이터 기반으로 분석하여 시스템 안정화 달성 [cite: 78, 79, 80]
+### 🏠 고독사 방지 시스템 (Anomaly Detection Platform)
+> 개인 생활 패턴 기반 이상 탐지 및 위험도 예측 시스템
 
----
+- 기술: FastAPI, React, MySQL, Isolation Forest, Redis
 
-### 🚀 Key Projects
+#### 🔹 주요 기능
+- 센서 데이터 → Feature 변환 → 위험도 점수 산출
+- 개인별 Isolation Forest 모델 기반 이상 탐지
+- 실시간 위험 감지 및 알림 시스템
 
-#### [고독사 감지 시스템 (Anbu-knocknock)]
-* **Description:** 이상 탐지 모델을 활용한 1인 가구 모니터링 시스템
-* [cite_start]**Role:** 데이터 분석 및 모델 평가 성능 개선 [cite: 87]
-* **Challenge & Solve:** 모델 자체의 문제보다 'cutoff 정책'으로 인한 미탐 증가임을 데이터 기반으로 파악하여 성능 최적화 [cite: 89, 90]
+#### 🔹 기술 포인트
+- Per-user 개인화 모델 설계
+- 비선형 Risk Score 변환 로직 적용
+- Redis 기반 실시간 데이터 처리 구조
 
-#### [AI 영상객체탐지분석 플랫폼]
-* [cite_start]**Description:** LangChain 및 RAG 기반의 자연어 처리와 객체 탐지 기술 융합 플랫폼 [cite: 51, 56]
-* [cite_start]**Stack:** Python, LangChain, OpenCV [cite: 51, 54, 56]
+#### 🔹 문제 해결
+- 동일 모델에서 F1 Score 변동 문제 발생  
+→ 모델 vs 평가 기준 분리 분석  
+→ threshold 조정으로 Recall 개선  
 
----
-
-### 🎓 Education & Certificates
-
-* **정보시스템개발전공:** 학점은행제 학사 과정 진행 중 (~2026.04) [cite: 42]
-* [cite_start]**ADsP (데이터분석 준전문가):** 한국데이터산업진흥원 (2026.03) [cite: 65]
-* [cite_start]**AI 교육:** 랭체인 활용 AI 플랫폼 구축 및 RAG-LangChain 기반 데이터 분석 과정 수료 [cite: 51, 52]
-* **Java 교육:** 디지털 컨버전스 자바 기반 빅데이터 융합개발자 과정 수료 [cite: 59]
+👉 [GitHub 링크]
 
 ---
 
-### 📫 Contact & Links
+### 🏥 케어브릿지 (CareBridge)
+> 공공 의료 데이터 기반 병원·응급실·예약 통합 관리 플랫폼
 
-* [cite_start]**Email:** sarah500288@gmail.com [cite: 7]
-* [cite_start]**Notion Portfolio:** [강민경 포트폴리오](https://www.notion.so/AI-71e8296227df8375b8af01620d9ea216) [cite: 109]
-* [cite_start]**Blog/GitHub:** [ming-0120](https://github.com/ming-0120) [cite: 113]
+- 참여도: 40% (백엔드 핵심 기능 및 서버 운영)
+- 기술: Django, MySQL, AWS EC2, Nginx, Gunicorn, AJAX, Open API
+
+#### 🔹 주요 기능
+- 공공 의료 Open API 연동 및 데이터 수집
+- 병원 / 의사 / 진료과 / 예약 통합 관리
+- 응급실 실시간 현황 조회
+- 사용자 맞춤 병원 검색 및 예약 시스템
+- 관리자 / 의료진 / 일반 사용자 Role 기반 기능 분리
+
+#### 🔹 기술 포인트
+- Staging 테이블 기반 데이터 수집 및 정제 구조 설계
+- UPDATE / INSERT 분리 로직으로 데이터 최신성 유지
+- Django ORM 기반 데이터 처리 및 권한 관리
+- AJAX + JSON 기반 비동기 UI 처리
+- AWS EC2 + Nginx + Gunicorn 배포 및 운영
+
+#### 🔹 문제 해결
+- 공공데이터 불완전성 문제  
+→ Staging 테이블을 통한 데이터 정제 구조 설계  
+
+- 실시간 응급실 데이터 관리 문제  
+→ 최신 상태만 유지하는 구조로 정합성 확보  
+
+- 서버 장애 대응  
+→ 로그 기반 원인 분석 및 안정화 경험  
+
+👉 [GitHub 링크]
 
 ---
-[cite_start]*"문제의 표면이 아닌 구조를 기반으로 원인을 파악하고, 데이터에 근거해 해결 방향을 설계합니다."* [cite: 91]
+
+### 🍳 자취생의 부엌
+> 1인 가구를 위한 식재료 관리 및 레시피 추천 웹 서비스 (단독 개발)
+
+- 기술: HTML, CSS, JavaScript (Vanilla), localStorage | Chatbot
+
+#### 🔹 주요 기능
+- 재료 기반 레시피 추천
+- 식재료 유통기한 관리
+- 로컬 저장 기반 CRUD 기능
+
+#### 🔹 기술 포인트
+- localStorage 기반 데이터 저장 구조 설계
+- 기능 단위 JS 모듈 분리 (storage / render / event)
+- SPA 형태의 DOM 업데이트 방식 구현
+
+#### 🔹 문제 해결
+- 날짜 계산 오류 (UTC 기준 문제)  
+→ Date 초기화 + Math.ceil 적용  
+
+- 데이터 유지 문제  
+→ JSON 기반 localStorage 저장 구조 설계  
+
+- UI 중복 렌더링 문제  
+→ 렌더링 책임 단일화 + 이벤트 중복 제거  
+
+👉 [GitHub 링크]
+
+---
+
+## 🧰 Tech Stack
+
+### Backend
+- C#, .NET, ASP.NET MVC
+- Python (FastAPI, Django)
+
+### Database
+- MSSQL, MySQL, OracleDB
+
+### Frontend
+- React, JavaScript, jQuery
+
+### Infra / Tools
+- AWS EC2, Nginx, Gunicorn
+- Git, Notion
+- RabbitMQ (비동기 처리 경험)
+
+### AI / Data
+- Pandas, NumPy
+- LangChain, RAG
+- OpenCV
+
+---
+
+## 💼 Experience
+
+### 🏢 리얼웹 (2022.06 ~ 2025.08)
+**SI 개발팀 / 웹 개발 및 운영**
+
+- 웹 애플리케이션 개발 및 유지보수
+- C#, Java 기반 시스템 개발
+- MSSQL 기반 데이터 설계 및 관리
+- 안정적인 서비스 운영 및 장애 대응
+
+---
+
+### 🏭 한국수력원자력 ERP 고도화 프로젝트
+- 통합 전자결재 시스템 개발 및 구축
+- Socket 통신 및 API 개발 담당
+- 실시간 처리 시스템 운영
+
+👉 핵심 성과  
+- 메시지 처리 병목 구간 분석 및 개선  
+- 시스템 지연 문제 해결 및 안정성 확보  
+
+---
+
+### 🏢 한국선급
+- 통합 전자결재 시스템 유지보수
+
+---
+
+## 🤖 AI Experience
+
+- LangChain 기반 RAG 구조 학습 및 구현
+- 데이터 전처리 및 분석 (Pandas, NumPy)
+- CNN / GAN 모델 구조 이해 및 활용 경험
+- AI 모델을 서비스에 적용하는 구조 설계 경험
+
+---
+
+## 🧠 Problem Solving
+
+> 현상이 아닌 구조를 분석하여 문제를 해결하는 개발자
+
+- 모델 성능 문제 → 평가 기준 문제로 원인 분리
+- 로그 분석 기반 병목 구간 식별
+- 데이터 흐름 기반 문제 해결 경험
+
+---
+
+## 📚 Education & Certification
+
+- 정보시스템개발전공 (학점은행제, 진행 중)
+- 데이터분석 준전문가 (ADsP)
+
+---
+
+## 🔗 Links
+
+- GitHub: https://github.com/ming-0120  
+- Portfolio: https://www.notion.so/AI-71e8296227df8375b8af01620d9ea216  
+
+---
+
+> **“AI를 이해하는 백엔드 개발자가 아니라,  
+AI를 서비스에 안정적으로 녹여내는 개발자입니다.”**
