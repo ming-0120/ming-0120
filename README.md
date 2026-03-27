@@ -33,21 +33,21 @@
 → threshold 분석으로 원인 규명 (cutoff 정책 문제)
 → 기준 조정으로 Recall 개선
 
-👉 [GitHub 링크]
+👉 [[GitHub 링크](https://github.com/ming-0120/anbu-knocknock)]
 
 ---
 
 ### 📌 Other Projects
 
-#### 1️⃣ 프로젝트명
+#### 1️⃣ 디버깅내과(팀장) - 케어브릿지
 - 한 줄 설명
 - 사용 기술: FastAPI, MySQL 등
-👉 [GitHub 링크]
+👉 [[GitHub 링크](https://github.com/ming-0120/carebridge)]
 
-#### 2️⃣ 프로젝트명
+#### 2️⃣ 자취생의 부엌 - 개인 프로젝트
 - 한 줄 설명
-- 사용 기술: React, API 등
-👉 [GitHub 링크]
+- 사용 기술: LLM | HTML, JS, CSS
+👉 [[GitHub 링크](https://github.com/ming-0120/littlemykitchen)]
 
 ---
 
