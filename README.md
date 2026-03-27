@@ -34,7 +34,7 @@
 → 모델 vs 평가 기준 분리 분석  
 → threshold 조정으로 Recall 개선  
 
-👉 [GitHub 링크]
+👉 [[케어브릿지-GitHub 링크](https://github.com/ming-0120/carebridge)]
 
 ---
 
@@ -68,7 +68,7 @@
 - 서버 장애 대응  
 → 로그 기반 원인 분석 및 안정화 경험  
 
-👉 [GitHub 링크]
+👉 [[케어브릿지-GitHub 링크](https://github.com/ming-0120/carebridge)]
 
 ---
 
@@ -97,7 +97,7 @@
 - UI 중복 렌더링 문제  
 → 렌더링 책임 단일화 + 이벤트 중복 제거  
 
-👉 [GitHub 링크]
+👉 [[자취생의 부엌-GitHub 링크](https://github.com/ming-0120/littlemykitchen.git)]
 
 ---
 
