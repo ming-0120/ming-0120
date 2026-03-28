@@ -36,95 +36,6 @@
 
 ---
 
-## 🛠 Projects ⭐
-
-### 🏠 고독사 방지 시스템 (Anomaly Detection Platform)
-> 개인 생활 패턴 기반 이상 탐지 및 위험도 예측 시스템 (단독 개발)
-
-- 기술: FastAPI, React, MySQL, Isolation Forest, Redis
-
-#### 🔹 주요 기능
-- 센서 데이터 → Feature 변환 → 위험도 점수 산출
-- 개인별 Isolation Forest 모델 기반 이상 탐지
-- 실시간 위험 감지 및 알림 시스템
-
-#### 🔹 기술 포인트
-- Per-user 개인화 모델 설계
-- 비선형 Risk Score 변환 로직 적용
-- Redis 기반 실시간 데이터 처리 구조
-
-#### 🔹 문제 해결
-- 동일 모델에서 F1 Score 변동 문제 발생  
-→ 모델 vs 평가 기준 분리 분석  
-→ threshold 조정으로 Recall 개선  
-
-👉 [[안부똑똑-GitHub 링크](https://github.com/ming-0120/anbu-knocknock)]
-
----
-
-### 🏥 케어브릿지 (CareBridge) - 팀 프로젝트
-> 공공 의료 데이터 기반 병원·응급실·예약 통합 관리 플랫폼
-
-- 참여도: 40% (백엔드 핵심 기능 및 서버 운영)
-- 기술: Django, MySQL, AWS EC2, Nginx, Gunicorn, AJAX, Open API
-
-#### 🔹 주요 기능
-- 공공 의료 Open API 연동 및 데이터 수집
-- 병원 / 의사 / 진료과 / 예약 통합 관리
-- 응급실 실시간 현황 조회
-- 사용자 맞춤 병원 검색 및 예약 시스템
-- 관리자 / 의료진 / 일반 사용자 Role 기반 기능 분리
-
-#### 🔹 기술 포인트
-- Staging 테이블 기반 데이터 수집 및 정제 구조 설계
-- gemini 2.5
-- Django ORM 기반 데이터 처리 및 권한 관리
-- AJAX + JSON 기반 비동기 UI 처리
-- AWS EC2 + Nginx + Gunicorn 배포 및 운영
-
-#### 🔹 문제 해결
-- 공공데이터 불완전성 문제  
-→ Staging 테이블을 통한 데이터 정제 구조 설계  
-
-- 실시간 응급실 데이터 관리 문제  
-→ 최신 상태만 유지하는 구조로 정합성 확보  
-
-- 서버 장애 대응  
-→ 로그 기반 원인 분석 및 안정화 경험  
-
-👉 [[케어브릿지-GitHub 링크](https://github.com/ming-0120/carebridge)]
-
----
-
-### 🍳 자취생의 부엌
-> 1인 가구를 위한 식재료 관리 및 레시피 추천 웹 서비스 (단독 개발)
-
-- 기술: HTML, CSS, JavaScript (Vanilla), localStorage | Chatbot
-
-#### 🔹 주요 기능
-- 재료 기반 레시피 추천
-- 식재료 유통기한 관리
-- 로컬 저장 기반 CRUD 기능
-
-#### 🔹 기술 포인트
-- localStorage 기반 데이터 저장 구조 설계
-- 기능 단위 JS 모듈 분리 (storage / render / event)
-- SPA 형태의 DOM 업데이트 방식 구현
-
-#### 🔹 문제 해결
-- 날짜 계산 오류 (UTC 기준 문제)  
-→ Date 초기화 + Math.ceil 적용  
-
-- 데이터 유지 문제  
-→ JSON 기반 localStorage 저장 구조 설계  
-
-- UI 중복 렌더링 문제  
-→ 렌더링 책임 단일화 + 이벤트 중복 제거  
-
-👉 [[자취생의 부엌-GitHub 링크](https://github.com/ming-0120/littlemykitchen.git)]
-  
----
-
 ## 💼 Experience
 
 ### 🏢 리얼웹 (2022.06 ~ 2025.08)
@@ -172,6 +83,71 @@
 
 ---
 
+
+## 🛠 Projects ⭐
+
+### 🏠 고독사 방지 시스템 (Anomaly Detection Platform)
+> 개인 생활 패턴 기반 이상 탐지 및 위험도 예측 시스템 (단독 개발)
+
+- 기술: FastAPI, React, MySQL, Isolation Forest, Redis
+
+#### 🔹 주요 기능
+- 센서 데이터 → Feature 변환 → 위험도 점수 산출
+- 개인별 Isolation Forest 모델 기반 이상 탐지
+- 실시간 위험 감지 및 알림 시스템
+
+#### 🔹 기술 포인트
+- Per-user 개인화 모델 설계
+- 비선형 Risk Score 변환 로직 적용
+- Redis 기반 실시간 데이터 처리 구조
+
+👉 [[안부똑똑-GitHub 링크](https://github.com/ming-0120/anbu-knocknock)]
+
+---
+
+### 🏥 케어브릿지 (CareBridge) - 팀 프로젝트
+> 공공 의료 데이터 기반 병원·응급실·예약 통합 관리 플랫폼
+
+- 참여도: 40% (백엔드 핵심 기능 및 서버 운영)
+- 기술: Django, MySQL, AWS EC2, Nginx, Gunicorn, AJAX, Open API
+
+#### 🔹 주요 기능
+- 공공 의료 Open API 연동 및 데이터 수집
+- 병원 / 의사 / 진료과 / 예약 통합 관리
+- 응급실 실시간 현황 조회
+- 사용자 맞춤 병원 검색 및 예약 시스템
+- 관리자 / 의료진 / 일반 사용자 Role 기반 기능 분리
+
+#### 🔹 기술 포인트
+- Staging 테이블 기반 데이터 수집 및 정제 구조 설계
+- Open API 기반 챗봇 구현
+- Django ORM 기반 데이터 처리 및 권한 관리
+- AJAX + JSON 기반 비동기 UI 처리
+- AWS EC2 + Nginx + Gunicorn 배포 및 운영
+
+👉 [[케어브릿지-GitHub 링크](https://github.com/ming-0120/carebridge)]
+
+---
+
+### 🍳 자취생의 부엌
+> 1인 가구를 위한 식재료 관리 및 레시피 추천 웹 서비스 (단독 개발)
+
+- 기술: HTML, CSS, JavaScript (Vanilla), localStorage | Chatbot
+
+#### 🔹 주요 기능
+- 재료 기반 레시피 추천
+- 식재료 유통기한 관리
+- 로컬 저장 기반 CRUD 기능
+
+#### 🔹 기술 포인트
+- localStorage 기반 데이터 저장 구조 설계
+- 기능 단위 JS 모듈 분리 (storage / render / event)
+- SPA 형태의 DOM 업데이트 방식 구현
+
+👉 [[자취생의 부엌-GitHub 링크](https://github.com/ming-0120/littlemykitchen.git)]
+  
+---
+
 ## 📚 Education & Certification
 
 - 정보시스템개발전공 (학점은행제, 4월 수료)
@@ -180,7 +156,7 @@
 ---
 
 ## 🔗 Links
-
+- 이력서 : [강민경_이력서.pdf](https://github.com/user-attachments/files/26321382/_20260327.pdf)
 - GitHub: https://github.com/ming-0120  
 - Portfolio: https://www.notion.so/AI-71e8296227df8375b8af01620d9ea216  
 
