@@ -12,10 +12,34 @@
 
 ---
 
+## 🧰 Tech Stack
+
+### Backend
+- Python (FastAPI, Django)
+- C#, .NET, ASP.NET MVC
+
+### Database
+- MSSQL, MySQL, OracleDB
+
+### Frontend
+- React, JavaScript, jQuery, HTML, CSS
+
+### Infra / Tools
+- AWS EC2, Nginx, Gunicorn, Azure, Docker
+- Git, Notion
+- RabbitMQ (비동기 처리 경험)
+
+### AI / Data
+- Pandas, NumPy
+- LangChain, RAG
+- OpenCV
+
+---
+
 ## 🛠 Projects ⭐
 
 ### 🏠 고독사 방지 시스템 (Anomaly Detection Platform)
-> 개인 생활 패턴 기반 이상 탐지 및 위험도 예측 시스템
+> 개인 생활 패턴 기반 이상 탐지 및 위험도 예측 시스템 (단독 개발)
 
 - 기술: FastAPI, React, MySQL, Isolation Forest, Redis
 
@@ -38,7 +62,7 @@
 
 ---
 
-### 🏥 케어브릿지 (CareBridge)
+### 🏥 케어브릿지 (CareBridge) - 팀 프로젝트
 > 공공 의료 데이터 기반 병원·응급실·예약 통합 관리 플랫폼
 
 - 참여도: 40% (백엔드 핵심 기능 및 서버 운영)
@@ -53,7 +77,7 @@
 
 #### 🔹 기술 포인트
 - Staging 테이블 기반 데이터 수집 및 정제 구조 설계
-- UPDATE / INSERT 분리 로직으로 데이터 최신성 유지
+- gemini 2.5
 - Django ORM 기반 데이터 처리 및 권한 관리
 - AJAX + JSON 기반 비동기 UI 처리
 - AWS EC2 + Nginx + Gunicorn 배포 및 운영
@@ -98,31 +122,7 @@
 → 렌더링 책임 단일화 + 이벤트 중복 제거  
 
 👉 [[자취생의 부엌-GitHub 링크](https://github.com/ming-0120/littlemykitchen.git)]
-
----
-
-## 🧰 Tech Stack
-
-### Backend
-- C#, .NET, ASP.NET MVC
-- Python (FastAPI, Django)
-
-### Database
-- MSSQL, MySQL, OracleDB
-
-### Frontend
-- React, JavaScript, jQuery
-
-### Infra / Tools
-- AWS EC2, Nginx, Gunicorn
-- Git, Notion
-- RabbitMQ (비동기 처리 경험)
-
-### AI / Data
-- Pandas, NumPy
-- LangChain, RAG
-- OpenCV
-
+  
 ---
 
 ## 💼 Experience
@@ -174,7 +174,7 @@
 
 ## 📚 Education & Certification
 
-- 정보시스템개발전공 (학점은행제, 진행 중)
+- 정보시스템개발전공 (학점은행제, 4월 수료)
 - 데이터분석 준전문가 (ADsP)
 
 ---
@@ -185,6 +185,3 @@
 - Portfolio: https://www.notion.so/AI-71e8296227df8375b8af01620d9ea216  
 
 ---
-
-> **“AI를 이해하는 백엔드 개발자가 아니라,  
-AI를 서비스에 안정적으로 녹여내는 개발자입니다.”**
