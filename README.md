@@ -103,8 +103,6 @@
 
 👉 [안부똑똑-GitHub 링크](https://github.com/ming-0120/anbu-knocknock)
 
-👉 [안부똑똑-Notion 링크](https://www.notion.so/3038296227df80bcbdc8f11b4447c19f)
-
 ---
 
 ### 🏥 케어브릿지 (CareBridge) - 팀 프로젝트
@@ -129,8 +127,6 @@
 
 👉 [[케어브릿지-GitHub 링크](https://github.com/ming-0120/carebridge)]
 
-👉 [[케어브릿지-Notion 링크](https://www.notion.so/API-Django-2dc8296227df80b59e88f77c7eda94c0)]
-
 ---
 
 ### 🍳 자취생의 부엌
@@ -149,8 +145,6 @@
 - SPA 형태의 DOM 업데이트 방식 구현
 
 👉 [[자취생의 부엌-GitHub 링크](https://github.com/ming-0120/littlemykitchen.git)]
-
-👉 [[자취생의 부엌-Notion 링크](https://www.notion.so/JS-HTML-CSS-2d88296227df8064a532e99728bcd759)]
 
 ---
 
